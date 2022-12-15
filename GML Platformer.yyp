@@ -4,7 +4,8 @@
   "name": "GML Platformer",
   "resources": [
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},"order":1,},
-    {"id":{"name":"sMiner","path":"sprites/sMiner/sMiner.yy",},"order":0,},
+    {"id":{"name":"sMinerWalk","path":"sprites/sMinerWalk/sMinerWalk.yy",},"order":2,},
+    {"id":{"name":"sMinerIdle","path":"sprites/sMinerIdle/sMinerIdle.yy",},"order":0,},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},"order":1,},
     {"id":{"name":"oMiner","path":"objects/oMiner/oMiner.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -15,6 +16,7 @@
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,

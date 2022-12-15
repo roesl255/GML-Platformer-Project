@@ -38,3 +38,26 @@ if (place_meeting(x,y+vsp,oBlock))
     vsp = 0;
 }
 y = y + vsp;
+
+//Animation
+if (!place_meeting(x,y+1,oBlock))
+{
+
+
+
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = sMinerIdle;
+	}
+	else
+	{
+		sprite_index = sMinerWalk;
+	}
+}
+
+if (hsp != 0) image_xscale = sign(hsp);
+
